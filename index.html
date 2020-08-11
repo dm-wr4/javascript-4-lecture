@@ -12,10 +12,33 @@
         src="https://gamepedia.cursecdn.com/worldofmayhem_gamepedia_en/thumb/2/2b/Bugs_Bunny.png/1200px-Bugs_Bunny.png"
         class="header-image"
         alt="Bugs"
+        id="bugs-image"
       />
-      <h1 class="title">
+      <h1 class="title another-class">
         What's the Story, Doc? Javascript in the DOM!
       </h1>
     </header>
+    <!-- <div id="dynamic-div"></div> -->
+    <div class="story-hold">
+      <h2>THE STORY</h2>
+      <div class="left-line"></div>
+      <div class="content-hold">
+        <div class="part-form">
+          <input id="part-input" placeholder="Story part" />
+          <button id="part-button">ADD A PART</button>
+        </div>
+        <ol id="part-list">
+          <li>The story begins</li>
+          <li>With a "What's up Doc?"</li>
+        </ol>
+        <form>
+          <input id="color-input" placeholder="Type a color!" />
+          <button id="story-button">
+            CHANGE THE COLOR
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
